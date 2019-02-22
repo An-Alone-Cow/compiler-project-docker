@@ -1,0 +1,3 @@
+#!/bin/bash
+docker-compose exec cool coolc asignment1/$1.cl asignment1/atoi.cl
+docker-compose exec cool spim asignment1/$1.s

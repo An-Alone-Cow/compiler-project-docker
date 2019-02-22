@@ -12,4 +12,4 @@ ENV PATH="/cool/bin/:${PATH}"
 
 WORKDIR /codes/
 
-CMD /bin/bash
+CMD tail -f /dev/null
