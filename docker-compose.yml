@@ -1,0 +1,8 @@
+version: "2"
+
+services:
+  cool:
+    build: .
+    volumes:
+      - ./student-dist:/cool
+      - ./codes:/codes
