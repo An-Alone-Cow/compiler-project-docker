@@ -10,3 +10,5 @@ You can use `coolc filename.cl` to compile your cool program to spim; afterwards
 # Where To Start
 `student-dist/assignments` conatins ready templates for you to start each assignment. `student-dist` is mounted onto `/cool` in the container. You can find the templates folder under the path `/cool/assignments/` inside the container.
 
+# Copyright Notice
+Originaly this was a work of [@mtp1376](https://github.com/mtp1376), I've just done some minor refactoring and cleanup.
