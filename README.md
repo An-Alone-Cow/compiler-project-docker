@@ -1,12 +1,12 @@
-# compiler-project
-Mojtahedi's docker-ready project. I'll try to add my own answers for the assignments as well.
-
-# To Run
-Use following command to run the project(you need to have docker and docker-compose installed):
+# How To Run
+Use the following command to run the project (requires docker and docker-compose):
 
 ```docker-compose run cool```
 
-After that, inside the container you can use `coolc filename.cl` to compile file to spim and `spim filename.s` to run it :).
+Use `Docker exec` to enter the container created by the command above. Inside you have access to coolc, spim and other cool related binaries.
 
-# Where to Put My Codes On?
-Put your codes in the `codes` directory which is mounted on `/codes` directory in the container and by default is the working directory of the container.
+You can use `coolc filename.cl` to compile your cool program to spim; afterwards can also use `spim filename.s` to run the generated spim file.
+
+# Where To Start
+`student-dist/assignments` conatins ready templates for you to start each assignment. `student-dist` is mounted onto `/cool` in the container. You can find the templates folder under the path `/cool/assignments/` inside the container.
+

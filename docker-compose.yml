@@ -5,4 +5,4 @@ services:
     build: .
     volumes:
       - ./student-dist:/cool
-      - ./codes:/codes
+
